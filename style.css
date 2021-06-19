@@ -1,0 +1,151 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    margin-top: 15vh;
+    border: 2px solid black;
+    background-color: #DCE1E3;
+}
+.container1  button{
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    margin-bottom: 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.container1{
+    margin-top: 5vh;
+}
+/* First row  */
+.row1 button{
+    height: 30px;
+    position: relative;
+}  
+.ESC,
+.F4,
+.F8{
+    margin-right: 33.33px;
+}
+.container1 .row1 span{
+font-size: 0.6rem;
+display: block;
+position: absolute;
+top: 0;
+right: 3px;
+}
+/* second row  */
+.backsp{
+    width: 100px;
+}
+.container1 .row2 span{
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+/* THIRD ROW  */
+.row3{
+    height: 50px;
+}
+.TAB{
+        width: 80px;
+}
+.SLASH{
+    width: 70px;
+}
+.ADD{
+    position: relative;
+    height: 110px;
+}
+.container1 .row3 span{
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+/* FOURTH ROW  */
+.CAPS{
+    width: 90px;
+}
+.ENTER{
+    width: 120px;
+}
+.container1 .row4 span{
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+/* FIFTH ROW  */
+.row5{
+    height: 50px;
+}
+.LSHIFT{
+    width: 115px;
+}
+.RSHIFT{
+    width: 155px;
+}
+.LENTER{
+height: 110PX;
+}
+.container1 .row5 .fas{
+   display: block;
+}
+.container1 .row5 span{
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+
+/* SIXTH ROW  */
+.LCTRL,
+.FN{
+width: 52.5px;
+}
+.SPACE{
+    width: 290px;
+}
+.ZERO{
+    width: 110px;
+}
+
+.arrow{
+    width: 155px;
+}
+.arrow button{
+    width: 38.3px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.arrow .upper,
+.arrow .lower
+{
+display: flex;
+    justify-content: center;
+}
+
+/* numpad buttons  */
+.container2{
+    margin-left: 10px;
+    margin-top: 5vh;
+}
+.container2  button{
+    margin-right: 10px;
+    position: relative;
+}
+.container2 .row1 button{
+    font-size: 0.6rem;
+}
+.container2 .row span{
+display: block;
+}
